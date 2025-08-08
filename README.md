@@ -24,4 +24,4 @@ You must have to input url in firebase.json if custom url
 }
 }
 
-firebase deploy --only hosting:[site]
+firebase deploy --only hosting:diemdanhdongquang
