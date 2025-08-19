@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "target": "ES6",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "fund4crypto/*": ["./*"],
+      "@/utils/*": ["utils/*"],
+      "@/database/*": ["database/*"],
+      "@/public/*": ["public/*"],
+      "@/*": ["./*"]
+    },  
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+}
